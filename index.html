@@ -115,6 +115,10 @@
                     <div class="col-lg-5 mb-4">
                       <div class="card">
                         <form action="https://formsubmit.co/688f25cf166c47d7bb611041d462fd12" method="POST">
+                          <input type="text" name="_honey" style="display: none;">
+
+                          <!--Disbable Captcha -->
+                          <input type="hidden" name="_captcha" value="false">
                           <div class="card-body">
                             <div class="text-center">
                               <h3 class="mt-2"><i class="fas fa-envelope"></i> Message us:</h3>
@@ -123,25 +127,25 @@
                               <div class="form-group text-left">
                                 <i class="fas fa-2x fa-user "></i>
                                 <label for="name">Name</label>
-                                <input type="text" required id="name" class="form-control">
+                                <input type="text" required id="name" name="name" class="form-control">
                               </div>
                               <!-- Email -->
                               <div class="form-group text-left">
                                 <i class="fas fa-2x fa-envelope "></i>
                                 <label for="email">Email</label>
-                                <input type="text" required id="email" class="form-control">
+                                <input type="text" required id="email" name="email" class="form-control">
                               </div>
                               <!-- Sub -->
                               <div class="form-group text-left">
                                 <i class="fas fa-2x fa-tag "></i>
                                 <label for="sub">Subject</label>
-                                <input type="text" required id="sub" class="form-control">
+                                <input type="text" required id="sub" name="sub" class="form-control">
                               </div>
                               <!-- Message -->
                               <div class="form-group text-left">
                                 <i class="fas fa-2x fa-pencil-alt "></i>
                                 <label for="msg">Message</label>
-                                <input type="text" required id="msg" class="form-control">
+                                <input type="text" required id="msg" name="msg" class="form-control">
                               </div>
                               <!-- Submit -->
                               <button type="submit" class="text-center text-white btn btn-outline-light
