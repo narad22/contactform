@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narad Web Solutions</title>
+  <!-- Bootstrap cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+  <!-- Style Css -->
+  <link rel="stylesheet" href="contactStyle.css">
+
+  <style>
+          html,
+          body,
+          header,
+          .view {
+                  height: 100%;
+                  }
+                  #name {
+                background-color: rgba(0, 0, 0, 0);
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                box-shadow: 0 1px 0 0 #ffff;
+                transition: height 1s;
+                -webkit-transition: height 1s;
+                }
+
+                #name:focus {
+                height: 50px;
+                font-size: 16px;
+                }
+
+                #email {
+                background-color: rgba(0, 0, 0, 0);
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                box-shadow: 0 1px 0 0 #ffff;
+                transition: height 1s;
+                -webkit-transition: height 1s;
+
+                }
+
+                #email:focus {
+                height: 50px;
+                font-size: 16px;
+                }
+
+                #sub {
+                background-color: rgba(0, 0, 0, 0);
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                box-shadow: 0 1px 0 0 #ffff;
+                transition: height 1s;
+                -webkit-transition: height 1s;
+
+                }
+
+                #sub:focus {
+                height: 50px;
+                font-size: 16px;
+                }
+
+                #msg {
+                background-color: rgba(0, 0, 0, 0);
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                box-shadow: 0 1px 0 0 #ffff;
+                transition: height 1s;
+                -webkit-transition: height 1s;
+                }
+
+                #msg:focus {
+                height: 50px;
+                font-size: 16px;
+                }
+
+                #submit {
+                background-color: rgba(255, 255, 255, 255);
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                box-shadow: 0 1px 0 0 #ffff;
+                transition: height 1s;
+                -webkit-transition: height 1s;
+                }
+
+                #submit:focus {
+                height: 50px;
+                font-size: 16px;
+                }
+
+  </style>
+
+</head>
+
+<body>
+
+        <div class="container">
+                <div class="text-light mb-5">
+                  <div class="row">
+                    <!-- 1 Column -->
+                    <div class="col-lg-5 mb-4">
+                      <div class="card">
+                        <form action="" id="contact-form" method="post" action="homeNetworkSite.php">
+                          <div class="card-body">
+                            <div class="text-center">
+                              <h3 class="mt-2"><i class="fas fa-envelope"></i> Message us:</h3>
+                              <p class="text-center">We'll write rarely, but only the best content.</p>
+                              <!-- Name -->
+                              <div class="form-group text-left">
+                                <i class="fas fa-2x fa-user "></i>
+                                <label for="name">Name</label>
+                                <input type="text" required id="name" class="form-control">
+                              </div>
+                              <!-- Email -->
+                              <div class="form-group text-left">
+                                <i class="fas fa-2x fa-envelope "></i>
+                                <label for="email">Email</label>
+                                <input type="text" required id="email" class="form-control">
+                              </div>
+                              <!-- Sub -->
+                              <div class="form-group text-left">
+                                <i class="fas fa-2x fa-tag "></i>
+                                <label for="sub">Subject</label>
+                                <input type="text" required id="sub" class="form-control">
+                              </div>
+                              <!-- Message -->
+                              <div class="form-group text-left">
+                                <i class="fas fa-2x fa-pencil-alt "></i>
+                                <label for="msg">Message</label>
+                                <input type="text" required id="msg" class="form-control">
+                              </div>
+                              <!-- Submit -->
+                              <button type="submit" class="text-center text-white btn btn-outline-light
+                              btn-lg btn-block">Submit</button>
+                              <!-- Submit -->
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+</body>
+</html>
